@@ -34858,3 +34858,633 @@ View error context:
 2024-11-21 08:51:10,041 11952 INFO ? odoo.service.server: Initiating shutdown 
 2024-11-21 08:51:10,042 11952 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2024-11-21 08:51:10,451 11952 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2024-12-12 06:39:06,534 14980 INFO ? odoo: Odoo version 17.0 
+2024-12-12 06:39:06,534 14980 INFO ? odoo: Using configuration file at C:\Odoo\odoo\odoo.conf 
+2024-12-12 06:39:06,534 14980 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\ratsila\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\odoo\\odoo\\addons', 'c:\\odoo\\odoo\\odoo\\addons'] 
+2024-12-12 06:39:06,534 14980 INFO ? odoo: database: kevin@default:default 
+2024-12-12 06:39:06,769 14980 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-12-12 06:39:07,834 14980 INFO ? odoo.service.server: HTTP service (werkzeug) running on Kevin:8069 
+2024-12-12 06:39:20,062 14980 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-12-12 06:39:20,062 14980 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-12-12 06:39:20,085 14980 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'Insi_APP', defaulting to LGPL-3 
+2024-12-12 06:39:20,093 14980 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'zaitra', defaulting to LGPL-3 
+2024-12-12 06:39:20,127 14980 INFO odoo odoo.modules.loading: loading 56 modules... 
+2024-12-12 06:39:21,104 14980 INFO odoo odoo.modules.loading: 56 modules loaded in 0.98s, 0 queries (+0 extra) 
+2024-12-12 06:39:21,259 14980 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-12-12 06:39:21,269 14980 INFO odoo odoo.modules.registry: Registry loaded in 1.295s 
+2024-12-12 06:39:21,278 14980 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2024-12-12 06:39:21,607 14980 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'zaitra', defaulting to LGPL-3 
+2024-12-12 06:39:21,613 14980 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'Insi_APP', defaulting to LGPL-3 
+2024-12-12 06:39:22,654 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:22] "GET / HTTP/1.1" 200 - 175 0.373 2.362
+2024-12-12 06:39:22,842 14980 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'gestion_etudiants', defaulting to LGPL-3 
+2024-12-12 06:39:22,843 14980 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'gestion_etudiants', defaulting to LGPL-3 
+2024-12-12 06:39:23,441 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:23] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.001 0.780
+2024-12-12 06:39:23,447 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:23] "GET /web/assets/1/78e4187/web.assets_frontend.min.css HTTP/1.1" 200 - 5 0.017 0.768
+2024-12-12 06:39:23,792 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:23] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 1 0.005 0.035
+2024-12-12 06:39:23,844 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:23] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 200 - 1 0.004 0.038
+2024-12-12 06:39:24,202 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:24] "GET /web/static/img/odoo_logo_tiny.png HTTP/1.1" 200 - 1 0.005 0.349
+2024-12-12 06:39:24,207 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:24] "GET /web/image/website.s_cover_default_image HTTP/1.1" 200 - 9 0.011 0.351
+2024-12-12 06:39:24,216 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:24] "GET /web/image/website/1/logo/My%20Website?unique=5bf4167 HTTP/1.1" 200 - 5 0.012 0.356
+2024-12-12 06:39:24,225 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:24] "GET /web/assets/1/219566f/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.012 0.367
+2024-12-12 06:39:24,800 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:24] "GET /web/image/website/1/favicon?unique=5bf4167 HTTP/1.1" 200 - 6 0.000 0.252
+2024-12-12 06:39:25,043 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:25] "GET /web/assets/1/28c8c8f/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.016 0.480
+2024-12-12 06:39:25,184 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:25] "GET /website/translations/649b84cb35c683d5545062481c7377c222773b74?lang=fr_FR HTTP/1.1" 200 - 4 0.000 0.045
+2024-12-12 06:39:28,264 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:28] "GET / HTTP/1.1" 200 - 9 0.010 0.173
+2024-12-12 06:39:28,340 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:28] "GET /web/image/website.s_cover_default_image HTTP/1.1" 304 - 7 0.000 0.044
+2024-12-12 06:39:36,219 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:36] "GET /web/login HTTP/1.1" 200 - 20 0.018 0.114
+2024-12-12 06:39:50,978 14980 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:39:51,279 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:51] "POST /web/login HTTP/1.1" 200 - 17 0.025 0.886
+2024-12-12 06:39:58,631 14980 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:39:58,645 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:39:58] "POST /web/login HTTP/1.1" 200 - 13 0.006 0.502
+2024-12-12 06:40:04,159 14980 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:40:04,167 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:40:04] "POST /web/login HTTP/1.1" 200 - 13 0.008 0.712
+2024-12-12 06:40:06,583 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:40:06] "GET /web/reset_password HTTP/1.1" 200 - 13 0.013 0.178
+2024-12-12 06:40:07,209 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-12-12 06:40:07,299 14980 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 3 checked, 2 removed 
+2024-12-12 06:40:07,365 14980 INFO odoo odoo.addons.base.models.res_users: GC'd 5 user log entries 
+2024-12-12 06:40:07,411 14980 INFO odoo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [88, 89, 90, 91, 92, 93, 94, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87] 
+2024-12-12 06:40:07,422 14980 INFO odoo odoo.models.unlink: User #1 deleted base.module.uninstall records with IDs: [11, 12, 13] 
+2024-12-12 06:40:07,422 14980 INFO odoo odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-12-12 06:40:07,453 14980 INFO odoo odoo.models.unlink: User #1 deleted bus.bus records with IDs: [307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479] 
+2024-12-12 06:40:07,453 14980 INFO odoo odoo.models.unlink: User #1 deleted bus.presence records with IDs: [2] 
+2024-12-12 06:40:07,741 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Base: Auto-vacuum internal data` (0.531s). 
+2024-12-12 06:40:07,746 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Base: Portal Users Deletion`. 
+2024-12-12 06:40:07,750 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Base: Portal Users Deletion` (0.004s). 
+2024-12-12 06:40:07,754 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Website Visitor : clean inactive visitors`. 
+2024-12-12 06:40:07,758 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Website Visitor : clean inactive visitors` (0.004s). 
+2024-12-12 06:40:07,762 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Gamification: Karma tracking consolidation`. 
+2024-12-12 06:40:07,799 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Gamification: Karma tracking consolidation` (0.037s). 
+2024-12-12 06:40:07,803 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.001s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,804 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.000s). 
+2024-12-12 06:40:07,819 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Gamification: Goal Challenge Check`. 
+2024-12-12 06:40:07,882 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Gamification: Goal Challenge Check` (0.063s). 
+2024-12-12 06:40:07,897 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Discuss: channel member unmute`. 
+2024-12-12 06:40:07,897 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Discuss: channel member unmute` (0.000s). 
+2024-12-12 06:40:07,897 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 06:40:07,913 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.016s). 
+2024-12-12 06:40:07,913 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2024-12-12 06:40:07,929 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Account: Post draft entries with auto_post enabled and accounting date up to today` (0.016s). 
+2024-12-12 06:40:07,945 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 06:40:07,951 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.006s). 
+2024-12-12 06:40:07,958 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-12-12 06:40:07,965 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Users: Notify About Unregistered Users` (0.007s). 
+2024-12-12 06:40:07,965 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-12-12 06:40:07,979 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Delete Notifications older than 6 Month` (0.014s). 
+2024-12-12 06:40:07,986 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Sales: Send pending emails`. 
+2024-12-12 06:40:07,999 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Sales: Send pending emails` (0.014s). 
+2024-12-12 06:40:08,006 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Send invoices automatically`. 
+2024-12-12 06:40:08,006 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Send invoices automatically` (0.000s). 
+2024-12-12 06:40:08,013 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 06:40:08,020 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.007s). 
+2024-12-12 06:40:08,020 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Disable unused snippets assets`. 
+2024-12-12 06:40:08,312 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 06:40:08,326 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.014s). 
+2024-12-12 06:40:08,333 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2024-12-12 06:40:08,648 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Digest Emails` (0.316s). 
+2024-12-12 06:40:08,664 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Publisher: Update Notification`. 
+2024-12-12 06:40:08,920 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Disable unused snippets assets` (0.900s). 
+2024-12-12 06:40:09,194 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Publisher: Update Notification` (0.530s). 
+2024-12-12 06:40:10,136 14980 INFO odoo odoo.addons.auth_signup.controllers.main: Password reset attempt for <kevinandrianarivony@icloud.com> by user <public> from 127.0.0.1 
+2024-12-12 06:40:14,299 14980 INFO odoo odoo.addons.auth_signup.models.res_users: Password reset email sent for user <kevinandrianarivony@icloud.com> to <kevinandrianarivony@icloud.com> 
+2024-12-12 06:40:14,305 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:40:14] "POST /web/reset_password HTTP/1.1" 200 - 48 0.024 4.198
+2024-12-12 06:40:23,726 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:40:23] "GET /web/login HTTP/1.1" 200 - 9 0.012 0.083
+2024-12-12 06:40:52,498 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:40:52] "GET /web/reset_password HTTP/1.1" 200 - 8 0.003 0.061
+2024-12-12 06:40:55,379 14980 INFO odoo odoo.addons.auth_signup.controllers.main: Password reset attempt for <kevinandrianarivony@icloud.com> by user <public> from 127.0.0.1 
+2024-12-12 06:40:59,472 14980 INFO odoo odoo.addons.auth_signup.models.res_users: Password reset email sent for user <kevinandrianarivony@icloud.com> to <kevinandrianarivony@icloud.com> 
+2024-12-12 06:40:59,486 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:40:59] "POST /web/reset_password HTTP/1.1" 200 - 32 0.018 4.143
+2024-12-12 06:41:27,746 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:41:27] "GET /web/login HTTP/1.1" 200 - 9 0.011 0.084
+2024-12-12 06:41:38,267 14980 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:41:38,280 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:41:38] "POST /web/login HTTP/1.1" 200 - 13 0.015 0.501
+2024-12-12 06:42:07,517 14980 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:42:07,530 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:42:07] "POST /web/login HTTP/1.1" 200 - 13 0.016 0.534
+2024-12-12 06:44:55,489 14980 INFO odoo odoo.addons.base.models.res_users: Login failed for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:44:55,504 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:44:55] "POST /web/login HTTP/1.1" 200 - 13 0.011 0.532
+2024-12-12 06:45:03,290 14980 INFO odoo odoo.addons.base.models.res_users: Login successful for db:odoo login:kevinandrianarivony@icloud.com from 127.0.0.1 
+2024-12-12 06:45:03,306 14980 INFO odoo odoo.models.unlink: User #4 deleted website.visitor records with IDs: [80] 
+2024-12-12 06:45:03,316 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:03] "POST /web/login HTTP/1.1" 303 - 50 0.038 0.650
+2024-12-12 06:45:04,851 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:04] "GET /web HTTP/1.1" 200 - 67 0.057 1.474
+2024-12-12 06:45:05,182 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:05] "GET /web/webclient/load_menus/960be47e84d8f84a01e3198b8e141088d19ef3b5fe48c514e42e5b90541c46f3 HTTP/1.1" 200 - 2 0.003 0.011
+2024-12-12 06:45:05,194 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:05] "GET /web/webclient/translations/da44a099364a7be1f79d830234b4607c9c9b54e5?lang=fr_FR HTTP/1.1" 200 - 3 0.008 0.017
+2024-12-12 06:45:11,171 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "GET /web/assets/ef2f1de/web.assets_web.min.js HTTP/1.1" 200 - 3 0.005 5.998
+2024-12-12 06:45:11,219 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 06:45:11,236 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.016s). 
+2024-12-12 06:45:11,250 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 06:45:11,258 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.008s). 
+2024-12-12 06:45:11,286 14980 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/1b58c68/web.assets_web.min.css (id:766) 
+2024-12-12 06:45:11,289 14980 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [765] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/1b58c68/web.assets_web.min.css 
+2024-12-12 06:45:11,373 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "GET /web/assets/1b58c68/web.assets_web.min.css HTTP/1.1" 200 - 32 0.095 6.110
+2024-12-12 06:45:11,564 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 200 - 4 0.003 0.031
+2024-12-12 06:45:11,884 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.003 0.003
+2024-12-12 06:45:11,891 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:11,917 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "POST /mail/init_messaging HTTP/1.1" 200 - 49 0.047 0.023
+2024-12-12 06:45:11,926 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.006
+2024-12-12 06:45:11,936 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "POST /web/action/load HTTP/1.1" 200 - 9 0.017 0.014
+2024-12-12 06:45:11,943 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:11] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.024 0.007
+2024-12-12 06:45:11,950 14980 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-12-12 06:45:12,209 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:12] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 06:45:12,213 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:12] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.001 0.005
+2024-12-12 06:45:12,256 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.003 0.020
+2024-12-12 06:45:12,260 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:12] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2024-12-12 06:45:12,599 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:12] "GET /web/offline HTTP/1.1" 200 - 6 0.000 0.011
+2024-12-12 06:45:12,933 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:12] "POST /web/dataset/call_kw/zaitra.client/get_views HTTP/1.1" 200 - 20 0.015 0.013
+2024-12-12 06:45:13,253 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:13] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-12-12 06:45:13,257 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:13] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-12-12 06:45:26,487 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:26] "POST /web/action/load HTTP/1.1" 200 - 9 0.011 0.008
+2024-12-12 06:45:26,851 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:26] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 41 0.022 0.032
+2024-12-12 06:45:27,066 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.004
+2024-12-12 06:45:27,211 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.026 0.014
+2024-12-12 06:45:27,245 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.010 0.063
+2024-12-12 06:45:27,394 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 06:45:27,696 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-12 06:45:27,696 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 06:45:27,701 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 06:45:27,704 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:27,704 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 06:45:27,706 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:27] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:28,016 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:28,017 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-12-12 06:45:28,018 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-12-12 06:45:28,020 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-12-12 06:45:28,022 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,023 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,333 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:28,335 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-12-12 06:45:28,335 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,336 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,337 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,339 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-12-12 06:45:28,644 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-12 06:45:28,645 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 06:45:28,648 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:28,654 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:28,656 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /Insi_APP/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-12-12 06:45:28,965 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,965 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-12-12 06:45:28,966 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-12-12 06:45:28,971 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 06:45:28,975 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:28] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,025 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 128 0.078 0.302
+2024-12-12 06:45:29,273 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 06:45:29,275 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-12 06:45:29,276 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-12 06:45:29,278 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 06:45:29,281 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 06:45:29,342 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:29,593 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 06:45:29,595 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,595 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,596 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:29,598 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,652 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 06:45:29,918 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:29,918 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,918 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,918 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 06:45:29,919 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:29,965 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:29] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 06:45:30,235 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:30] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-12 06:45:30,235 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:30] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 06:45:30,238 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:30] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-12 06:45:30,257 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.010 0.017
+2024-12-12 06:45:30,562 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.011 0.051
+2024-12-12 06:45:30,565 14980 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:30] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 06:45:31,012 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:31] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.010 0.018
+2024-12-12 06:45:34,562 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.016 0.016
+2024-12-12 06:45:34,879 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:45:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.004
+2024-12-12 06:52:30,376 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 06:52:30] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2024-12-12 06:55:11,367 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 06:55:11,374 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.007s). 
+2024-12-12 07:04:33,832 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 07:04:33,842 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 07:14:44,200 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 07:14:44,212 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.012s). 
+2024-12-12 07:24:54,642 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 07:24:54,652 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 07:35:05,023 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 07:35:05,033 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.009s). 
+2024-12-12 07:35:05,037 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 07:35:09,145 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (4.108s). 
+2024-12-12 07:35:09,154 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 07:35:09,160 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.006s). 
+2024-12-12 07:45:12,072 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 07:45:12,082 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.010s). 
+2024-12-12 07:45:12,087 14980 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 07:45:12,092 14980 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s). 
+2024-12-12 07:45:59,014 14980 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:45:59] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.003
+2024-12-12 07:56:00,557 13932 INFO ? odoo: Odoo version 17.0 
+2024-12-12 07:56:00,557 13932 INFO ? odoo: Using configuration file at C:\Odoo\odoo\odoo.conf 
+2024-12-12 07:56:00,557 13932 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\ratsila\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\odoo\\odoo\\addons', 'c:\\odoo\\odoo\\odoo\\addons'] 
+2024-12-12 07:56:00,557 13932 INFO ? odoo: database: kevin@default:default 
+2024-12-12 07:56:00,686 13932 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-12-12 07:56:01,720 13932 INFO ? odoo.service.server: HTTP service (werkzeug) running on Kevin:8069 
+2024-12-12 07:56:05,452 13932 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-12-12 07:56:05,458 13932 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-12-12 07:56:05,467 13932 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'Insi_APP', defaulting to LGPL-3 
+2024-12-12 07:56:05,475 13932 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'zaitra', defaulting to LGPL-3 
+2024-12-12 07:56:05,508 13932 INFO odoo odoo.modules.loading: loading 56 modules... 
+2024-12-12 07:56:06,285 13932 INFO odoo odoo.modules.loading: 56 modules loaded in 0.78s, 0 queries (+0 extra) 
+2024-12-12 07:56:06,415 13932 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-12-12 07:56:06,421 13932 INFO odoo odoo.modules.registry: Registry loaded in 1.020s 
+2024-12-12 07:56:06,425 13932 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2024-12-12 07:56:08,284 13932 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'zaitra', defaulting to LGPL-3 
+2024-12-12 07:56:08,297 13932 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'Insi_APP', defaulting to LGPL-3 
+2024-12-12 07:56:08,610 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:08] "GET /web HTTP/1.1" 200 - 100 0.121 3.089
+2024-12-12 07:56:08,877 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:08] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 4 0.002 0.006
+2024-12-12 07:56:08,950 13932 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'gestion_etudiants', defaulting to LGPL-3 
+2024-12-12 07:56:09,265 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.040 0.045
+2024-12-12 07:56:09,272 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.028
+2024-12-12 07:56:09,299 13932 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-12-12 07:56:09,442 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.032 0.182
+2024-12-12 07:56:09,477 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 8 0.006 0.260
+2024-12-12 07:56:09,488 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "POST /web/action/load HTTP/1.1" 200 - 11 0.013 0.608
+2024-12-12 07:56:09,581 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.002
+2024-12-12 07:56:09,819 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "POST /web/dataset/call_kw/zaitra.client/get_views HTTP/1.1" 200 - 20 0.011 0.016
+2024-12-12 07:56:09,825 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:09] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.009 0.008
+2024-12-12 07:56:10,141 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2024-12-12 07:56:10,142 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:10] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2024-12-12 07:56:11,422 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:11] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.004
+2024-12-12 07:56:12,342 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:12] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.009
+2024-12-12 07:56:12,626 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:12] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 41 0.017 0.030
+2024-12-12 07:56:12,662 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2024-12-12 07:56:12,973 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.016
+2024-12-12 07:56:13,002 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.053
+2024-12-12 07:56:13,471 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-12 07:56:13,473 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 07:56:13,475 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 07:56:13,475 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-12-12 07:56:13,476 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-12 07:56:13,734 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 167 0.088 0.509
+2024-12-12 07:56:13,784 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:13] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 07:56:16,390 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.014 0.045
+2024-12-12 07:56:16,617 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.032
+2024-12-12 07:56:16,753 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:16] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.012 0.027
+2024-12-12 07:56:19,844 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.019 0.015
+2024-12-12 07:56:20,091 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:20] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.004
+2024-12-12 07:56:24,338 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.008 0.014
+2024-12-12 07:56:24,685 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.032
+2024-12-12 07:56:24,945 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 07:56:24] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.013 0.019
+2024-12-12 07:57:01,084 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 07:57:01,092 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.007s). 
+2024-12-12 08:05:01,192 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 08:05:01,198 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s). 
+2024-12-12 08:15:01,391 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 08:15:01,402 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.011s). 
+2024-12-12 08:24:29,858 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 08:24:29,865 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.007s). 
+2024-12-12 08:34:40,195 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2024-12-12 08:34:40,203 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.008s). 
+2024-12-12 08:34:40,208 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Discuss: channel member unmute`. 
+2024-12-12 08:34:40,213 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Discuss: channel member unmute` (0.006s). 
+2024-12-12 08:34:40,218 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 08:34:40,223 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s). 
+2024-12-12 08:34:40,227 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-12-12 08:34:40,235 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Users: Notify About Unregistered Users` (0.008s). 
+2024-12-12 08:34:40,239 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-12-12 08:34:40,246 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Delete Notifications older than 6 Month` (0.007s). 
+2024-12-12 08:34:40,250 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Send invoices automatically`. 
+2024-12-12 08:34:40,262 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Send invoices automatically` (0.012s). 
+2024-12-12 08:34:40,267 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 08:34:40,270 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.003s). 
+2024-12-12 08:34:40,275 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 08:34:40,280 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.006s). 
+2024-12-12 08:35:01,628 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Sales: Send pending emails`. 
+2024-12-12 08:35:01,635 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Sales: Send pending emails` (0.007s). 
+2024-12-12 08:44:50,542 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 08:44:50,549 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.008s). 
+2024-12-12 08:44:50,557 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 08:44:50,565 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.008s). 
+2024-12-12 08:48:38,459 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:38] "POST /web/action/load HTTP/1.1" 200 - 8 0.004 0.008
+2024-12-12 08:48:39,784 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:39] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 397 0.122 0.951
+2024-12-12 08:48:40,109 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:40] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 401 0.108 0.199
+2024-12-12 08:48:40,556 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:40] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.002
+2024-12-12 08:48:40,563 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:40] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.003
+2024-12-12 08:48:40,803 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:40] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 08:48:40,897 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:40] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 08:48:40,900 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:40] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-12 08:48:45,014 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "GET /web?debug=1 HTTP/1.1" 200 - 29 0.016 0.049
+2024-12-12 08:48:45,307 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "GET /web/webclient/load_menus/c8d6f6d15ad39ec35c2681aa508f248b2d50955e58f3410f8072a1fcf42799cd HTTP/1.1" 200 - 1 0.002 0.045
+2024-12-12 08:48:45,593 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.007 0.009
+2024-12-12 08:48:45,616 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /web/action/load HTTP/1.1" 200 - 9 0.015 0.009
+2024-12-12 08:48:45,628 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /mail/init_messaging HTTP/1.1" 200 - 35 0.024 0.029
+2024-12-12 08:48:45,639 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /web/dataset/call_kw/zaitra.client/get_views HTTP/1.1" 200 - 2 0.001 0.005
+2024-12-12 08:48:45,659 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.004
+2024-12-12 08:48:45,670 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.007 0.011
+2024-12-12 08:48:45,954 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.003
+2024-12-12 08:48:45,955 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 2 0.002 0.004
+2024-12-12 08:48:45,965 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.003 0.005
+2024-12-12 08:48:45,979 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:45] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.011 0.013
+2024-12-12 08:48:46,330 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:46] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.003
+2024-12-12 08:48:47,853 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:47] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.003
+2024-12-12 08:48:48,539 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:48] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.008
+2024-12-12 08:48:48,864 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:48] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.006
+2024-12-12 08:48:49,125 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2024-12-12 08:48:49,212 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.012 0.016
+2024-12-12 08:48:49,231 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.043
+2024-12-12 08:48:49,435 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:49] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.009 0.036
+2024-12-12 08:48:50,195 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:50] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.004
+2024-12-12 08:48:50,459 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:50] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.005 0.015
+2024-12-12 08:48:50,520 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:50] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2024-12-12 08:48:51,464 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:51] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.013 0.004
+2024-12-12 08:48:51,780 13932 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user kevinandrianarivony@icloud.com #2 via 127.0.0.1 
+2024-12-12 08:48:52,328 13932 INFO odoo odoo.modules.registry: Caches invalidated, signaling through the database: ['templates'] 
+2024-12-12 08:48:52,330 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:52] "POST /web/dataset/call_button HTTP/1.1" 200 - 1390 0.300 0.253
+2024-12-12 08:48:54,287 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.017 0.027
+2024-12-12 08:48:54,646 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.034
+2024-12-12 08:48:55,187 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:55] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 103 0.047 0.280
+2024-12-12 08:48:56,810 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.014 0.019
+2024-12-12 08:48:57,127 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.005 0.001
+2024-12-12 08:48:57,376 13932 INFO ? werkzeug: 127.0.0.1 - - [12/Dec/2024 08:48:57] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-12 08:49:21,997 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.011 0.016
+2024-12-12 08:49:22,349 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.034
+2024-12-12 08:49:22,602 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:22] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.008 0.030
+2024-12-12 08:49:24,333 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.021 0.017
+2024-12-12 08:49:24,647 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.004 0.004
+2024-12-12 08:49:27,113 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.010 0.014
+2024-12-12 08:49:27,471 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:27] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.037
+2024-12-12 08:49:27,732 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:27] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.010 0.034
+2024-12-12 08:49:54,616 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.016 0.024
+2024-12-12 08:49:54,928 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 08:49:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.004 0.003
+2024-12-12 08:55:01,046 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 08:55:01,051 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.004s). 
+2024-12-12 09:05:02,153 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 09:05:02,164 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.011s). 
+2024-12-12 09:15:02,425 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 09:15:02,434 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.009s). 
+2024-12-12 09:24:30,779 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 09:24:30,783 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.004s). 
+2024-12-12 09:34:41,223 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 09:34:41,233 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.010s). 
+2024-12-12 09:34:41,238 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 09:34:41,244 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.007s). 
+2024-12-12 09:34:41,248 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 09:34:41,253 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.004s). 
+2024-12-12 09:44:51,758 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 09:44:51,767 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.009s). 
+2024-12-12 09:44:51,777 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 09:44:51,781 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.004s). 
+2024-12-12 09:44:51,786 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Website Visitor : clean inactive visitors`. 
+2024-12-12 09:44:51,791 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Website Visitor : clean inactive visitors` (0.005s). 
+2024-12-12 09:55:02,226 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 09:55:02,237 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 10:05:03,090 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 10:05:03,099 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.009s). 
+2024-12-12 10:13:23,810 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 10:13:23] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.004
+2024-12-12 10:15:03,395 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 10:15:03,404 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.009s). 
+2024-12-12 10:24:31,901 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 10:24:31,904 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.003s). 
+2024-12-12 10:34:42,355 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 10:34:42,366 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.011s). 
+2024-12-12 10:34:42,377 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 10:34:42,383 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.006s). 
+2024-12-12 10:34:42,388 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 10:34:42,393 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s). 
+2024-12-12 10:44:52,732 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 10:44:52,741 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.009s). 
+2024-12-12 10:44:52,752 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 10:44:52,756 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.004s). 
+2024-12-12 10:55:03,073 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 10:55:03,082 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.009s). 
+2024-12-12 11:04:03,856 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-12-12 11:04:03,910 13932 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 2 checked, 1 removed 
+2024-12-12 11:04:03,967 13932 INFO odoo odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2024-12-12 11:04:03,991 13932 INFO odoo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [95] 
+2024-12-12 11:04:04,007 13932 INFO odoo odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-12-12 11:04:04,017 13932 INFO odoo odoo.models.unlink: User #1 deleted bus.bus records with IDs: [480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493] 
+2024-12-12 11:04:04,212 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Base: Auto-vacuum internal data` (0.356s). 
+2024-12-12 11:04:04,218 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Base: Portal Users Deletion`. 
+2024-12-12 11:04:04,222 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Base: Portal Users Deletion` (0.004s). 
+2024-12-12 11:05:04,229 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 11:05:04,232 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.003s). 
+2024-12-12 11:15:04,515 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 11:15:04,525 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 11:24:32,819 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 11:24:32,822 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.003s). 
+2024-12-12 11:34:43,257 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 11:34:43,266 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 11:34:43,276 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 11:34:43,279 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.003s). 
+2024-12-12 11:34:43,284 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 11:34:43,290 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.005s). 
+2024-12-12 11:38:55,990 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 11:38:55] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.003
+2024-12-12 11:44:53,718 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 11:44:53,727 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.009s). 
+2024-12-12 11:44:53,738 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 11:44:53,743 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s). 
+2024-12-12 11:55:04,178 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 11:55:04,188 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 12:02:04,871 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Gamification: Goal Challenge Check`. 
+2024-12-12 12:02:04,958 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Gamification: Goal Challenge Check` (0.087s). 
+2024-12-12 12:05:04,982 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 12:05:04,985 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.003s). 
+2024-12-12 12:15:05,262 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 12:15:05,273 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.011s). 
+2024-12-12 12:24:33,939 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 12:24:33,942 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.003s). 
+2024-12-12 12:34:44,392 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 12:34:44,401 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.008s). 
+2024-12-12 12:34:44,412 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 12:34:44,419 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.008s). 
+2024-12-12 12:34:44,424 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 12:34:44,431 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.007s). 
+2024-12-12 12:44:54,756 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 12:44:54,766 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.011s). 
+2024-12-12 12:44:54,777 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 12:44:54,782 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.006s). 
+2024-12-12 12:53:13,512 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 12:53:13] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.004
+2024-12-12 12:55:05,110 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 12:55:05,128 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.018s). 
+2024-12-12 13:02:05,772 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2024-12-12 13:02:05,776 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Digest Emails` (0.004s). 
+2024-12-12 13:05:05,801 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 13:05:05,807 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.006s). 
+2024-12-12 13:15:05,998 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 13:15:06,009 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.012s). 
+2024-12-12 13:24:34,852 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 13:24:34,855 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.003s). 
+2024-12-12 13:34:45,223 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-12 13:34:45,234 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.011s). 
+2024-12-12 13:34:45,239 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-12 13:34:45,247 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.008s). 
+2024-12-12 13:34:45,252 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 13:34:45,260 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.008s). 
+2024-12-12 13:44:55,774 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 13:44:55,784 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-12 13:44:55,794 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-12 13:44:55,798 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.004s). 
+2024-12-12 13:55:06,357 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 13:55:06,369 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.013s). 
+2024-12-12 14:00:00,843 13932 INFO odoo werkzeug: 127.0.0.1 - - [12/Dec/2024 14:00:00] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.005
+2024-12-12 14:05:06,525 13932 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-12 14:05:06,535 13932 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.010s). 
+2024-12-13 06:24:53,037 9300 INFO ? odoo: Odoo version 17.0 
+2024-12-13 06:24:53,037 9300 INFO ? odoo: Using configuration file at C:\Odoo\odoo\odoo.conf 
+2024-12-13 06:24:53,037 9300 INFO ? odoo: addons paths: ['C:\\Odoo\\odoo\\odoo\\addons', 'c:\\users\\ratsila\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'c:\\odoo\\odoo\\addons', 'c:\\odoo\\odoo\\odoo\\addons'] 
+2024-12-13 06:24:53,037 9300 INFO ? odoo: database: kevin@default:default 
+2024-12-13 06:24:53,447 9300 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-12-13 06:24:54,639 9300 INFO ? odoo.service.server: HTTP service (werkzeug) running on Kevin:8069 
+2024-12-13 06:25:06,984 9300 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-12-13 06:25:06,986 9300 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-12-13 06:25:07,062 9300 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'Insi_APP', defaulting to LGPL-3 
+2024-12-13 06:25:07,145 9300 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'zaitra', defaulting to LGPL-3 
+2024-12-13 06:25:07,478 9300 INFO odoo odoo.modules.loading: loading 56 modules... 
+2024-12-13 06:25:08,456 9300 INFO odoo odoo.modules.loading: 56 modules loaded in 0.98s, 0 queries (+0 extra) 
+2024-12-13 06:25:08,589 9300 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-12-13 06:25:08,589 9300 INFO odoo odoo.modules.registry: Registry loaded in 1.688s 
+2024-12-13 06:25:08,589 9300 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2024-12-13 06:25:08,893 9300 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'Insi_APP', defaulting to LGPL-3 
+2024-12-13 06:25:08,901 9300 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'zaitra', defaulting to LGPL-3 
+2024-12-13 06:25:10,218 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:10] "GET / HTTP/1.1" 200 - 217 0.197 3.121
+2024-12-13 06:25:10,930 9300 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'gestion_etudiants', defaulting to LGPL-3 
+2024-12-13 06:25:10,930 9300 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'gestion_etudiants', defaulting to LGPL-3 
+2024-12-13 06:25:15,214 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:15] "GET /web/assets/1/78e4187/web.assets_frontend.min.css HTTP/1.1" 200 - 4 0.007 4.986
+2024-12-13 06:25:15,214 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:15] "GET /web/assets/1/219566f/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 4 0.006 4.664
+2024-12-13 06:25:15,585 9300 INFO ? werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:15] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 200 - 0 0.000 0.021
+2024-12-13 06:25:15,623 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:15] "GET /web/image/website.s_cover_default_image HTTP/1.1" 304 - 8 0.005 0.011
+2024-12-13 06:25:15,630 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:15] "GET /web/image/website/1/logo/My%20Website?unique=5bf4167 HTTP/1.1" 200 - 4 0.005 0.014
+2024-12-13 06:25:16,082 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:16] "GET /web/assets/1/28c8c8f/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 4 0.001 0.268
+2024-12-13 06:25:16,191 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:16] "GET /website/translations/fcf6e45fe485d1c1a00f8976d9e738c318ca20a2?lang=fr_FR HTTP/1.1" 200 - 3 0.001 0.010
+2024-12-13 06:25:24,336 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:24] "GET /web HTTP/1.1" 200 - 47 0.012 2.233
+2024-12-13 06:25:24,359 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:24] "GET /web/webclient/load_menus/c8d6f6d15ad39ec35c2681aa508f248b2d50955e58f3410f8072a1fcf42799cd HTTP/1.1" 200 - 2 0.000 0.015
+2024-12-13 06:25:24,908 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:24] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.000 0.000
+2024-12-13 06:25:25,123 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "POST /web/action/load HTTP/1.1" 200 - 9 0.028 0.160
+2024-12-13 06:25:25,123 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.034 0.182
+2024-12-13 06:25:25,143 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 10 0.019 0.168
+2024-12-13 06:25:25,158 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 4 0.001 0.187
+2024-12-13 06:25:25,183 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.039 0.187
+2024-12-13 06:25:25,443 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.000
+2024-12-13 06:25:25,480 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.001
+2024-12-13 06:25:25,505 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "POST /web/dataset/call_kw/zaitra.client/get_views HTTP/1.1" 200 - 21 0.019 0.036
+2024-12-13 06:25:25,505 9300 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-12-13 06:25:25,831 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-12-13 06:25:25,832 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:25] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 3 0.004 0.003
+2024-12-13 06:25:27,128 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:27] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.031
+2024-12-13 06:25:29,089 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:29] "POST /web/action/load HTTP/1.1" 200 - 9 0.001 0.010
+2024-12-13 06:25:29,376 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:29] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 41 0.016 0.027
+2024-12-13 06:25:29,404 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.001
+2024-12-13 06:25:29,720 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.023 0.012
+2024-12-13 06:25:29,769 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:29] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.000 0.083
+2024-12-13 06:25:30,173 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:30] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 34 0.025 0.221
+2024-12-13 06:25:31,304 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.007 0.012
+2024-12-13 06:25:31,584 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.001 0.037
+2024-12-13 06:25:31,721 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:31] "GET /insi/static/description/icon.png HTTP/1.1" 404 - 18 0.003 0.038
+2024-12-13 06:25:34,408 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.020 0.008
+2024-12-13 06:25:34,657 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.015 0.009
+2024-12-13 06:25:34,716 9300 INFO ? werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:34] "GET /website_sale_loyalty/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2024-12-13 06:25:53,882 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-13 06:25:53,913 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.016s). 
+2024-12-13 06:25:53,928 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-13 06:25:53,936 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.008s). 
+2024-12-13 06:25:53,944 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2024-12-13 06:25:53,957 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Account: Post draft entries with auto_post enabled and accounting date up to today` (0.014s). 
+2024-12-13 06:25:53,961 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-13 06:25:53,965 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.004s). 
+2024-12-13 06:25:53,970 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-13 06:25:53,975 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.005s). 
+2024-12-13 06:25:56,532 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:56] "POST /web/dataset/call_button HTTP/1.1" 200 - 1 0.000 0.007
+2024-12-13 06:25:56,852 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:56] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 7 0.007 0.000
+2024-12-13 06:25:57,275 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:57] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 17 0.034 0.148
+2024-12-13 06:25:57,352 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:57] "GET /web/bundle/web_editor.backend_assets_wysiwyg?lang=fr_FR&debug=1 HTTP/1.1" 200 - 7 0.000 0.049
+2024-12-13 06:25:57,706 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:57] "GET /web/assets/3465ef7/web_editor.backend_assets_wysiwyg.min.css HTTP/1.1" 200 - 3 0.000 0.048
+2024-12-13 06:25:57,798 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:57] "GET /web/assets/f6b6ba7/web_editor.backend_assets_wysiwyg.min.js HTTP/1.1" 200 - 3 0.000 0.140
+2024-12-13 06:25:57,921 9300 INFO ? werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:57] "GET /base/static/src/css/description.css HTTP/1.1" 200 - 0 0.000 0.007
+2024-12-13 06:25:58,152 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:25:58] "GET /web/image?model=ir.module.module&id=560&field=icon_image&unique=1731669165000 HTTP/1.1" 200 - 3 0.000 0.021
+2024-12-13 06:26:25,589 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:25] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.185
+2024-12-13 06:26:26,024 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "POST /web/dataset/call_kw/sale.order/get_views HTTP/1.1" 200 - 99 0.067 0.044
+2024-12-13 06:26:26,163 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "POST /web/dataset/call_kw/sale.order/web_search_read HTTP/1.1" 200 - 6 0.000 0.003
+2024-12-13 06:26:26,455 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "POST /onboarding/sale_quotation HTTP/1.1" 200 - 23 0.079 0.026
+2024-12-13 06:26:26,545 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/image/res.users/5/avatar_128 HTTP/1.1" 200 - 8 0.005 0.018
+2024-12-13 06:26:26,787 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/image/res.users/1/avatar_128 HTTP/1.1" 200 - 9 0.000 0.016
+2024-12-13 06:26:26,810 9300 INFO ? werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - 0 0.000 0.015
+2024-12-13 06:26:26,824 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 9 0.011 0.027
+2024-12-13 06:26:26,830 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/image/res.users/4/avatar_128 HTTP/1.1" 200 - 8 0.010 0.034
+2024-12-13 06:26:26,831 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/image/onboarding.onboarding.step/2/step_image HTTP/1.1" 200 - 5 0.008 0.028
+2024-12-13 06:26:26,864 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:26] "GET /web/image/onboarding.onboarding.step/3/step_image HTTP/1.1" 200 - 4 0.001 0.005
+2024-12-13 06:26:27,108 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:27] "GET /web/image/onboarding.onboarding.step/12/step_image HTTP/1.1" 200 - 4 0.000 0.000
+2024-12-13 06:26:27,129 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:27] "GET /web/image/onboarding.onboarding.step/13/step_image HTTP/1.1" 200 - 4 0.016 0.005
+2024-12-13 06:26:27,149 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:27] "GET /web/image/res.users/3/avatar_128 HTTP/1.1" 200 - 8 0.000 0.018
+2024-12-13 06:26:30,616 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:30] "POST /web/dataset/call_kw/sale.order/web_search_read HTTP/1.1" 200 - 2 0.000 0.002
+2024-12-13 06:26:36,302 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.012 0.002
+2024-12-13 06:26:36,656 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:36] "POST /web/dataset/call_kw/sale.order/get_views HTTP/1.1" 200 - 21 0.004 0.038
+2024-12-13 06:26:36,897 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:36] "POST /web/dataset/call_kw/sale.order/web_search_read HTTP/1.1" 200 - 2 0.015 0.000
+2024-12-13 06:26:46,463 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:46] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.040
+2024-12-13 06:26:46,857 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:46] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 71 0.033 0.050
+2024-12-13 06:26:47,052 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 7 0.013 0.001
+2024-12-13 06:26:47,190 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=1&unique=1734136007000 HTTP/1.1" 200 - 10 0.000 0.014
+2024-12-13 06:26:47,456 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=8&unique=1729441607000 HTTP/1.1" 200 - 5 0.000 0.047
+2024-12-13 06:26:47,456 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=9&unique=1731328007000 HTTP/1.1" 200 - 5 0.000 0.047
+2024-12-13 06:26:47,456 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=10&unique=1736944007000 HTTP/1.1" 200 - 6 0.000 0.047
+2024-12-13 06:26:47,474 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=3&unique=1736710007000 HTTP/1.1" 200 - 5 0.006 0.059
+2024-12-13 06:26:47,476 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=2&unique=1734287207000 HTTP/1.1" 200 - 5 0.008 0.060
+2024-12-13 06:26:47,518 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=4&unique=1732886807000 HTTP/1.1" 200 - 5 0.000 0.000
+2024-12-13 06:26:47,776 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=5&unique=1736011607000 HTTP/1.1" 200 - 5 0.004 0.013
+2024-12-13 06:26:47,776 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=6&unique=1734136007000 HTTP/1.1" 200 - 5 0.002 0.014
+2024-12-13 06:26:47,782 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:47] "GET /web/image?model=product.template&field=image_128&id=7&unique=1737779207000 HTTP/1.1" 200 - 5 0.001 0.014
+2024-12-13 06:26:50,073 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:50] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 41 0.020 0.168
+2024-12-13 06:26:50,157 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:50] "POST /web/dataset/call_kw/product.category/check_access_rights HTTP/1.1" 200 - 1 0.000 0.002
+2024-12-13 06:26:50,448 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:50] "POST /web/dataset/call_kw/ir.ui.view/render_public_asset HTTP/1.1" 200 - 7 0.013 0.007
+2024-12-13 06:26:50,540 9300 INFO ? werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:50] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - 0 0.000 0.000
+2024-12-13 06:26:50,969 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:50] "GET /web/image?field=avatar_128&id=3&model=res.partner&unique=2024-12-12%2006%3A40%3A55 HTTP/1.1" 200 - 8 0.003 0.010
+2024-12-13 06:26:56,543 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:56] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 6 0.000 0.007
+2024-12-13 06:26:58,384 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:58] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 7 0.000 0.013
+2024-12-13 06:26:59,246 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:26:59] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 4 0.002 0.004
+2024-12-13 06:27:01,489 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:27:01] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 3 0.006 0.000
+2024-12-13 06:27:04,399 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:27:04] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 7 0.002 0.011
+2024-12-13 06:27:04,627 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:27:04] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 7 0.002 0.007
+2024-12-13 06:27:06,773 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:27:06] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 7 0.000 0.013
+2024-12-13 06:34:54,067 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-12-13 06:34:54,070 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.003s). 
+2024-12-13 06:34:54,073 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-12-13 06:34:54,073 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.000s). 
+2024-12-13 06:34:54,073 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-13 06:34:54,073 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.000s). 
+2024-12-13 06:44:54,248 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2024-12-13 06:44:54,264 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `eCommerce: send email to customers about their abandoned cart` (0.016s). 
+2024-12-13 06:44:54,273 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-13 06:44:54,280 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.007s). 
+2024-12-13 06:53:27,030 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:53:27] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 3 0.001 0.006
+2024-12-13 06:53:29,284 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:53:29] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 2 0.000 0.000
+2024-12-13 06:53:53,396 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:53:53] "POST /web/dataset/call_kw/zaitra.client/web_read HTTP/1.1" 200 - 2 0.000 0.000
+2024-12-13 06:53:55,056 9300 INFO odoo werkzeug: 127.0.0.1 - - [13/Dec/2024 06:53:55] "POST /web/dataset/call_kw/zaitra.client/web_search_read HTTP/1.1" 200 - 2 0.002 0.004
+2024-12-13 06:54:54,583 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-13 06:54:54,595 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.012s). 
+2024-12-13 07:04:33,755 9300 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-12-13 07:04:33,755 9300 INFO odoo odoo.addons.base.models.ir_cron: Job done: `payment: post-process transactions` (0.000s). 
